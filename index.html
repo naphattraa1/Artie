@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines! 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Background Elements -->
+        <div class="decorative-bg"></div>
+
+        <!-- Title & Description -->
+        <div class="header">
+            <h1>Happy Valentines! 💕</h1>
+            <p>This is our love story</p>
+        </div>
+
+        <!-- Floating Heart Button (Can be Clicked to Reveal Something) -->
+        <div class="heart-container" onclick="showPhoto()">
+            <div class="heart">
+                <h2>Tap Me! 💖</h2>
+            </div>
+        </div>
+
+        <!-- Hidden Photo (Revealed on Click) -->
+        <div id="photoContainer" class="hidden">
+            <img src="images/valentine-photo.jpg" alt="Our Memory">
+        </div>
+
+        <!-- Next Page Button -->
+        <a href="page2.html" class="next-button">Next →</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
